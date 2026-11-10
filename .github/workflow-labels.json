@@ -1,0 +1,8 @@
+{
+  "frontend-ci": [
+    "frontend"
+  ],
+  "backend-ci": [
+    "backend"
+  ]
+}

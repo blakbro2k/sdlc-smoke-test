@@ -1,0 +1,1 @@
+Start a feature, bug or remediation branch from dev. Open a PR into dev with the matching work label, release:snapshot and one version label. Release through a PR from dev into main with release:production.

@@ -1,0 +1,30 @@
+{
+  "integration": "dev",
+  "production": "main",
+  "work": {
+    "feature": "feature",
+    "bug": "bug",
+    "remediate": "remediate"
+  },
+  "release": {
+    "integration": "release:snapshot",
+    "production": "release:production"
+  },
+  "versions": [
+    "major",
+    "minor",
+    "patch"
+  ],
+  "labels": {
+    "feature": { "color": "ADD8E6", "description" : "Introduces new functionality or enhances existing capabilities" },
+    "bug": { "color": "D73A4A", "description" : "Corrects unintended or broken application behavior" },
+    "remediate": { "color": "FF8C00", "description" : "Addresses technical debt, security vulnerabilities, or maintenance issues" },
+    "release:snapshot": { "color": "7E2A16", "description" : "Creates a snapshot release" },
+    "release:production": { "color": "0E8A16", "description" : "Creates a production release" },
+    "version:patch": { "color": "C5DEF5", "description" : "Bug fix, cleanup, docs, or small improvement" },
+    "version:minor": { "color": "1D76DB", "description" : "Feature or meaningful capability" },
+    "version:major": { "color": "33cdde", "description" : "Breaking or foundational version bump" },
+    "frontend": { "color": "081a71", "description" : "Changes to the user interface" },
+    "backend": { "color": "cd794a", "description" : "Changes to the backend of the product" }
+  }
+}
